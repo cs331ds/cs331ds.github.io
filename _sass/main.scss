@@ -1,0 +1,128 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  color: #666;
+  line-height: 1.6em;
+}
+
+pre, code {
+  font-family: 'Courier';
+  color:  #083D77;
+}
+
+pre {
+  margin: 25px 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* STRUCTURE */
+
+#pagewrap {
+  padding: 5px;
+  width: 960px;
+  margin: 20px auto;
+}
+
+header {
+  /* height: 100px; */
+  padding: 0 15px;
+}
+
+#announcements {
+  padding: 5px 0;
+}
+
+#calendar, #assignments, #etc {
+  padding: 10px 15px;
+}
+
+#announcements h2 {
+  margin: 5px 0px 10px;
+}
+
+#announcements h3 {
+  padding: 5px 0px;
+  margin: 0px;
+}
+
+#announcements h3 ~ h3 {
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+/* #calendar {
+  padding: 5px 15px;
+}
+
+#assignments {
+  padding: 5px 15px;
+  margin: 0px 5px 0px 5px;
+}
+
+#etc {
+  padding: 5px 15px;
+  float: left;
+} */
+
+footer {
+  clear: both;
+  padding: 10px 0px;
+  margin-top: 25px;
+}
+
+h1 {
+  color: #de5340;
+}
+
+h2 {
+  color: #4b7faf;
+}
+
+h3 {
+  color: #de5340;
+}
+
+h4 {
+  color: #4b7faf;
+}
+
+a:link    { color: #4b7faf }
+a:visited { color: #4b7faf }
+a:hover   { color: #4b7faf }
+a:active  { color: #4b7faf }
+
+footer {
+  border-top: 1px solid #ccc;
+  background: #f0f0f0;
+  text-align: center;
+}
+
+/* cqlendar */
+
+table.calendar {
+  border: 2px solid #FFFFFF;
+  background-color: #FFFFFF;;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+table.calendar td, table.calendar th {
+  border: 1px solid #FFFFFF;
+  padding: 3px 4px;
+}
+
+table.calendar tr:nth-child(even) {
+  background: #EBEBEB;
+}
+
+table.calendar thead {
+  background: #FFFFFF;
+  border-bottom: 4px solid #333333;
+}
+
+table.calendar thead th {
+  font-weight: bold;
+  color: #333333;
+  text-align: left;
+}
